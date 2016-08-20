@@ -1,4 +1,4 @@
-iZi-caf
+iZi
 ===========
 
 Getting Started
@@ -7,7 +7,7 @@ Getting Started
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the AOSP-CAF trees, use a command like this:
+To initialize your local repository using the iZi trees, use a command like this:
 
     repo init -u https://github.com/iZi-caf/platform_manifest.git -b mm6.0
 
@@ -18,10 +18,13 @@ Then to sync up:
 Building the source
 ---------------
 
-The source at iZi-caf is well configured for building.
+````bash
+./build.sh device_codename
+```
+Example:
+````bash
+./build.sh falcon
+./build.sh titan
+```
 
-    $ . build/envsetup.sh
-    $ lunch aosp_device-userdebug
-    $ make -jX otapackage
 
-where X is the number of jobs you would like to allot to the build system.

@@ -100,6 +100,9 @@ Why do we need CyanogenMod stuff when we are a CAF based ROM?
 A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run on other boards. Hence, we take HALs from CM to ensure compatiblity. Also, we need some stuff from CM because we want to be up to date always.
 -->
 
+  <!-- Packages -->
+  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" revision="cm-13.0" remote="github" />
+
   <!-- External -->
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-13.0" remote="github" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="cm-13.0" remote="github" />
@@ -432,7 +435,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings"/>

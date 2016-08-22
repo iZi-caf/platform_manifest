@@ -45,6 +45,10 @@
   <project name="platform_vendor_aosp" path="vendor/aosp" remote="izi" />
   <project name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="izi" />
 
+<!-- substractum -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+
+
 <!-- BEGIN AOSP-CAF -->
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="platform_art" path="art" remote="aosp-caf" />

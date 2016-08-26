@@ -40,8 +40,6 @@
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="izi" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="izi" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="izi" />
-  <project name="platform_hardware_cyanogen" path="hardware/cyanogen" remote="izi" />
-  <project name="platform_packages_apps_Snap" path="packages/apps/Snap" remote="izi" />
   <project name="platform_vendor_aosp" path="vendor/aosp" remote="izi" />
   <project name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="izi" />
   <project name="platform_development" path="development" remote="izi" />
@@ -99,6 +97,7 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
 
   <!-- Packages -->
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" revision="cm-13.0" remote="github" />
+  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" revision="cm-13.0" remote="github" />
 
   <!-- External -->
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-13.0" remote="github" />
@@ -119,6 +118,9 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" revision="cm-13.0" remote="github" />
  
   <!-- Hardware -->
+
+  <!-- cyanogen -->
+  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" revision="cm-13.0" remote="github" />
 
   <!-- audio -->
   <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" revision="cm-13.0" remote="github" />

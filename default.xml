@@ -49,6 +49,8 @@
   <project name="platform_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="izi" />
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" groups="pdk-cw-fs" remote="izi" />
   <project name="platform_packages_apps_Stk" path="packages/apps/Stk" remote="izi" />
+  <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="izi" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="izi" />
 
 <!-- BEGIN AOSP-CAF -->
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
@@ -79,7 +81,6 @@
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="mm6.0-caf" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" revision="mm6.0-caf" remote="aosp-caf" />
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aosp-caf" />
   <project name="platform_system_core" path="system/core" remote="aosp-caf" />
   <project name="platform_system_extras" path="system/extras" remote="aosp-caf" />
   <project name="platform_system_media" path="system/media" remote="aosp-caf" />
@@ -424,7 +425,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
-  <project name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>

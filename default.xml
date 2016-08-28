@@ -105,7 +105,7 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
 
   <!-- External -->
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-13.0" remote="github" />
-  <project path="external/toybox" name="CyanogenMod/android_external_toybox" revision="cm-13.0" remote="github" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="cm-13.0" remote="github" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" revision="cm-13.0" remote="github" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" revision="cm-13.0" remote="github" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" revision="cm-13.0" remote="github" />

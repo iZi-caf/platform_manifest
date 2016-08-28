@@ -369,7 +369,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="pdk-cw-fs" name="platform/external/timezonepicker-support" path="external/timezonepicker-support"/>
   <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml"/>
   <project groups="pdk" name="platform/external/tinyxml2" path="external/tinyxml2"/>
-  <project groups="pdk" name="platform/external/toybox" path="external/toybox"/>
   <project groups="pdk" name="platform/external/tremolo" path="external/tremolo"/>
   <project groups="pdk" name="platform/external/v8" path="external/v8"/>
   <project groups="pdk" name="platform/external/valgrind" path="external/valgrind"/>

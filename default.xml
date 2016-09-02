@@ -55,6 +55,7 @@
 
 <!-- BEGIN AOSP-CAF -->
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
+  <project name="device_qcom_common" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="platform_art" path="art" remote="aosp-caf" />
   <project name="platform_bionic" path="bionic" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
@@ -159,9 +160,6 @@ A: Cuz compatiblity. Our CAF base is optimised for msm8994 so it may/may-not run
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="cm-13.0-caf-8974" remote="github" />
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" revision="cm-13.0-caf-8994" remote="github" />
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" revision="cm-13.0-caf-8996" remote="github" />
-
- <!-- common -->
-  <project groups="qcom" name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="cm-13.0" remote="github" />
   
 <!-- End CyanogenMod -->
 <!-- BEGIN CODEAURORA -->

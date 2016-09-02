@@ -52,6 +52,7 @@
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="izi" />
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="izi" />
   <project name="platform_packages_apps_Music" path="packages/apps/Music" remote="izi" />
+  <project name="platform_external_sepolicy" path="external/sepolicy" remote="izi" />
 
 <!-- BEGIN AOSP-CAF -->
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
@@ -71,7 +72,6 @@
   <project name="platform_external_fuse" path="external/fuse" remote="aosp-caf" />
   <project name="platform_external_iproute2" path="external/iproute2" remote="aosp-caf" />
   <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="aosp-caf" />
-  <project name="platform_external_sepolicy" path="external/sepolicy" remote="aosp-caf" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosp-caf" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosp-caf" />
